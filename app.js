@@ -17,7 +17,7 @@ if(menu&&navlinks){
 document.querySelectorAll('a[href^="mailto:"]').forEach(link=>link.href='mailto:info@redautismoandalucia.org');
 const footerRow=document.querySelector('footer .footer-row');
 if(footerRow){
-  footerRow.innerHTML='<div><span>© RED Condición Autista Andalucía</span><div class="legal-links"><a href="privacidad.html">Política de privacidad</a><a href="cookies.html">Política de cookies</a></div></div><span>ASOCIACIÓN RED ANDALUZA CONDICION AUTISTA. CIF 24940736. nº REGISTRO 5320</span>';
+  footerRow.innerHTML='<div class="legal-links"><a href="privacidad.html">Política de privacidad</a><a href="cookies.html">Política de cookies</a></div><span>ASOCIACIÓN RED ANDALUZA CONDICION AUTISTA. CIF 24940736. nº REGISTRO 5320</span>';
 }
 if(!document.querySelector('link[href="legal.css"]')){
   const legalStyles=document.createElement('link');
