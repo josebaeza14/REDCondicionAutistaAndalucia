@@ -25,4 +25,4 @@ if(!document.querySelector('link[href="legal.css"]')){
   legalStyles.href='legal.css';
   document.head.appendChild(legalStyles);
 }
-const detail=document.querySelector('[data-program]');if(detail){const id=detail.dataset.program,p=programs[id];if(p){document.title=`${p.title} | RED Condición Autista Andalucía`;document.querySelector('#program-number').textContent=id;document.querySelector('#program-title').textContent=p.title;document.querySelector('#program-intro').textContent=p.intro;document.querySelector('#program-content').innerHTML=p.html;}}
+const detail=document.querySelector('[data-program]');if(detail){const id=detail.dataset.program,p=programs[id];if(p){document.querySelector('#program-number').textContent=id;document.querySelector('#program-title').textContent=p.title;document.querySelector('#program-intro').textContent=p.intro;document.querySelector('#program-content').innerHTML=p.html;}}
